@@ -1,0 +1,11 @@
+
+Problem Statement: Use Machine Learning to learn the WanToo strategy hidden in the data set.
+Assumptions: the trading strategy "looks" at 20ma and stochastics data when making it's decision. all these confounders are in the fields / columns.
+goals / success metrics: false positive must be less than 51%.
+	definitions
+		correct :  true positive and true negatives
+		errors  : false positive and false negatives
+		
+		false positive / (true positive + false positive) <50%
+		
+Risk and limitation: missing confounders on the column.
